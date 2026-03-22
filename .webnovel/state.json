@@ -32,52 +32,164 @@
     "cultivation_subtiers": ""
   },
   "progress": {
-    "current_chapter": 0,
-    "total_words": 0,
-    "last_updated": "2026-03-03 00:08:20",
+    "current_chapter": 1,
+    "total_words": 3287,
+    "last_updated": "2026-03-03 01:06:24",
     "volumes_completed": [],
     "current_volume": 1,
-    "volumes_planned": []
+    "volumes_planned": [
+      {
+        "volume": 1,
+        "name": "直播修仙初体验",
+        "chapters": "1-50",
+        "status": "in_progress",
+        "target_realm": "炼气期三层",
+        "chapters_written": 1,
+        "words_written": 3287
+      }
+    ]
   },
   "protagonist_state": {
     "name": "林风",
+    "age": 22,
+    "occupation": "失业程序员（前）/修仙主播（新手）",
     "power": {
-      "realm": "",
-      "layer": 1,
-      "bottleneck": ""
+      "realm": "凡人",
+      "layer": 0,
+      "bottleneck": "未入门",
+      "progress": 0.5
     },
     "location": {
-      "current": "",
-      "last_chapter": 0
+      "current": "出租屋",
+      "last_chapter": 1
     },
     "golden_finger": {
       "name": "修仙网红系统",
       "level": 1,
       "cooldown": 0,
-      "skills": []
+      "skills": ["基础吐纳法（学习中）"],
+      "daily_quota": "直播2小时",
+      "weekly_task": "未开始",
+      "current_task": "初次修炼直播",
+      "task_progress": "35分钟/120分钟",
+      "task_deadline": "23小时25分钟"
     },
-    "attributes": {}
+    "financial": {
+      "bank_balance": 327.15,
+      "credit_card_debt": 2846.73,
+      "rent_due": "7天后",
+      "income_today": 0
+    },
+    "social": {
+      "fans": 5,
+      "viewers": 5,
+      "popularity": 3,
+      "donations": 0
+    },
+    "attributes": {
+      "rationality": 8,
+      "social_anxiety": 7,
+      "adaptability": 6,
+      "persistence": 9,
+      "desperation": 10
+    }
   },
   "relationships": {},
   "disambiguation_warnings": [],
   "disambiguation_pending": [],
   "world_settings": {
-    "power_system": [],
-    "factions": [],
-    "locations": []
+    "power_system": [
+      {
+        "name": "炼气期",
+        "description": "初步感知灵气，强化身体",
+        "levels": 9
+      },
+      {
+        "name": "筑基期", 
+        "description": "灵气液化，寿命200年",
+        "levels": 9
+      },
+      {
+        "name": "金丹期",
+        "description": "凝聚金丹，可御剑飞行",
+        "levels": 9
+      }
+    ],
+    "factions": [
+      {
+        "name": "修仙者协会",
+        "type": "官方组织",
+        "attitude": "中立"
+      },
+      {
+        "name": "传统修仙派",
+        "type": "保守势力", 
+        "attitude": "敌对"
+      },
+      {
+        "name": "直播平台",
+        "type": "商业组织",
+        "attitude": "合作"
+      }
+    ],
+    "locations": [
+      {
+        "name": "出租屋",
+        "type": "主角住所",
+        "description": "林风的简陋出租屋，修仙直播起点"
+      },
+      {
+        "name": "城市公园",
+        "type": "修炼场所",
+        "description": "灵气相对浓郁，适合初期修炼"
+      }
+    ]
   },
   "plot_threads": {
     "active_threads": [],
     "foreshadowing": []
   },
   "review_checkpoints": [],
-  "chapter_meta": {},
+  "chapter_meta": {
+    "1": {
+      "title": "失业的绝望",
+      "word_count": 3287,
+      "written_date": "2026-03-03",
+      "key_events": [
+        "主角失业，经济压力巨大",
+        "母亲催婚电话",
+        "银行账单催款",
+        "异常天象出现",
+        "修仙网红系统激活",
+        "接受新手任务：初次修炼直播",
+        "开始第一次直播（35分钟）",
+        "首次感知到灵气"
+      ],
+      "new_characters": [],
+      "new_locations": ["出租屋"],
+      "foreshadowing": [
+        "系统来源神秘",
+        "灵气复苏迹象"
+      ],
+      "reading_power": {
+        "hook_strength": 8,
+        "micro_payoff": 3,
+        "strand": "quest"
+      }
+    }
+  },
   "strand_tracker": {
-    "last_quest_chapter": 0,
+    "last_quest_chapter": 1,
     "last_fire_chapter": 0,
     "last_constellation_chapter": 0,
     "current_dominant": "quest",
-    "chapters_since_switch": 0,
-    "history": []
+    "chapters_since_switch": 1,
+    "history": [
+      {
+        "chapter": 1,
+        "strand": "quest",
+        "strength": 8
+      }
+    ]
   }
 }
